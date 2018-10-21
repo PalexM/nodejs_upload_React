@@ -22,6 +22,6 @@ const upload = multer({
 })
 module.exports = function(app) {
   app.post('/upload', upload.single('file'), (req, res) => {
-    response.send({"msg": "File uploaded"})
+    console.log(file.filename)
   })
 }
