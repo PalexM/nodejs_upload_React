@@ -1,0 +1,26 @@
+{
+  "name": "nodejs_upload_react",
+  "version": "1.0.0",
+  "description": "Test Tech",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PalexM/nodejs_upload_React.git"
+  },
+  "author": "Pop Alexandru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PalexM/nodejs_upload_React/issues"
+  },
+  "homepage": "https://github.com/PalexM/nodejs_upload_React#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "file-system": "^2.2.2",
+    "multer": "^1.4.1",
+    "nodemon": "^1.18.4"
+  }
+}
